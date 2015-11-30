@@ -5,3 +5,6 @@
 *.pyc
 .DS_Store
 django
+build
+dist
+django_contrib_postgres.egg-info

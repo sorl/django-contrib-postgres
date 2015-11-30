@@ -5,6 +5,7 @@ Backport of Django 1.9+ ``django.contrib.postgres``
 Usage
 -----
 ::
+
     from postgres.fields import JSONField
     from django.db import models
 

@@ -3,13 +3,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-contrib-postgres',
-    version='1.9rc2',
+    version='0.0.1',
     description='Backport of django.contrib.postgres',
     long_description=open('README.rst').read(),
     author='Mikko Hellsing',
     author_email='mikko@aino.se',
     license='BSD',
-    url='https://github.com/aino/django-contrib-postgres',
+    url='https://github.com/sorl/django-contrib-postgres',
     packages=find_packages(exclude=['tests', 'tests.*']),
     zip_safe=False,
     classifiers=[
